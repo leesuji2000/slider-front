@@ -1,0 +1,14 @@
+[
+  {
+    "name": "kakao-callback",
+    "path": "/kakao-callback",
+    "component": "/Users/sujee2021/Documents/GitHub/slider-front/pages/kakao-callback.vue",
+    "chunkName": "pages/kakao-callback"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/sujee2021/Documents/GitHub/slider-front/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

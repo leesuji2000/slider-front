@@ -13,7 +13,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      {
+        src: 'https://developers.kakao.com/sdk/js/kakao.js'
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,5 +42,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  axios: {
+    baseURL: 'http://localhost:3003'
+  },
+
 }
